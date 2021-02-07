@@ -1,4 +1,15 @@
-.spacing {
-	padding:200px;
-    margin: 200px;
+.profile-icon {
+	width: 75px;
+    height: 75px;
 }
+
+.event-img{
+    height: 350px;
+    width: 600px;
+}
+
+.profile-card{
+    height: 180px;
+    width: 130px;
+}
+
