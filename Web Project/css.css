@@ -3,6 +3,10 @@
     height: 75px;
 }
 
+.small-icon{
+    height: 40px;
+    width: 40px;
+}
 .event-img{
     height: 350px;
     width: 600px;
