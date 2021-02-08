@@ -1,7 +1,14 @@
 <html>
     <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="bootstrap-4.5.3-dist/bootstrap-4.5.3-dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
         <title>GeTogether.com</title>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <link rel="stylesheet" href="css.css">
     </head>
     <body>
         <div>
@@ -30,7 +37,6 @@
                 </div>
             </div>
         </div>
-        
         <div class="container-sm">
         <div class="row shadow-lg p-3 mb-5 bg-white rounded" style="margin: 50px;">
             <div class="col-5">
@@ -38,209 +44,178 @@
                     <input type="text" class="form-control" placeholder="Find your next Event" aria-label="Find your next Event" aria-describedby="button-addon2">
                 </div>
             </div>
-        <div class="col-5">
-            <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="Nagpur, IN" aria-label="Nagpur, IN" aria-describedby="button-addon2">        
+            <div class="col-5">
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Nagpur, IN" aria-label="Nagpur, IN" aria-describedby="button-addon2">        
+                </div>
             </div>
-        </div>
-        <div class="col-2">
-            <div class="input-group-append">
-                <button class="btn btn-primary" type="button" id="button-addon2">Search</button>
-            </div>  
-        </div>
+            <div class="col-2">
+                <div class="input-group-append">
+                    <button class="btn btn-primary" type="button" id="button-addon2">Search</button>
+                </div>  
+            </div>
+            
         </div>  
-    <p class="display-4">Events Near You</p>
-    <div class="container">
-        <div class="row">
-            <div class="col-3">
-                <div class="card" style="width: 15rem; height: 20rem">
-                    <img src="Images/marketing.jpg" class="card-img-top" alt="image">
+        <p class="display-4">Events Near You</p>
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                <div class="card event-card">
+                    <img src="Images/marketing.jpg" class="card-img-top event-card-img">
                 <div class="card-body">
                     <p class="lead">Basics of Marketing<p>
                     <p class="card-text">Learn Basics of Online Marketing</p>
+                    <div class="row">
+                        <div class="col-5">
+                    <p class="middle lead">FREE</p>
+                        </div>
+                        <div class="col-5"> 
+                            <button class="btn btn-primary" type="button" id="button-addon2">Attend</button>
+                        </div>
+                </div>
                 </div>
                 </div>
             </div>
-            <div class="col-3">
-            <div class="card" style="width: 15rem; height: 20rem">
-                                <img src="Images/AAUvwnjGKGFwM-O4dkJGLeAipUd0mEaF5_OlytAB4DnrOQ=s176-c-k-c0x00ffffff-no-rj.jpg" class="card-img-top" alt="image">
+                <div class="col-3">
+            <div class="card event-card">
+                <div class="z-index-top rounded-pill bg-info text-white small-box" style="position: absolute; left: 5px; top: 5px; padding: 2px;">
+                    <p>Online Event</p>
+               </div>
+                <img src="Images/AAUvwnjGKGFwM-O4dkJGLeAipUd0mEaF5_OlytAB4DnrOQ=s176-c-k-c0x00ffffff-no-rj.jpg" class="card-img-top event-card-img z-index-below" alt="image">
                 <h2>Basics of Something</h2>
                 <p>Jaan ne k liye attend kare</p>
+                    <div class="row">
+                        <div class="col-5">
+                    <p class="lead">FREE</p>
+                        </div>
+                        <div class="col-5"> 
+                            <button href="Event_page.html" class="btn btn-primary" type="button" id="button-addon2">Attend</button>
+                        </div>
+                </div>
             </div>
-            </div>
-            <div class="col-3">
-                <a href="Event_page.html">
-                    <div class="card" style="width: 15rem; height: 20rem">
-                        <img src="Images/web.jpg" class="card-img-top" alt="image">
-                        <div class="card-body">
-                            <h3>Basics of Web Development</h3>
-                            <p class="card-text">Web Development seekhna hai toh attend karne kaa</p>
+        </div>
+                <div class="col-3">
+                <div class="card event-card">
+                    <img src="Images/web.jpg" class="card-img-top event-card-img" alt="image">
+                    <div class="card-body">
+                        <h5><strong>Basics of Web Development</strong></h5>
+                        <div class="row">
+                            <div class="col-5">
+                                <p class="lead">FREE</p>
+                            </div>
+                            <div class="col-5"> 
+                                <button class="btn btn-primary" type="button" id="button-addon2">Attend</button>
+                            </div>
                         </div>
                     </div>
-                </a>
+                </div>
             </div>
-    
-            <div class="col-3">
-            <div class="card" style="width: 15rem; height: 20rem">
-                <img src="Images/web.jpg" class="card-img-top" alt="image">
+                <div class="col-3">
+            <div class="card event-card">
+                <img src="Images/web.jpg" class="card-img-top event-card-img" alt="image">
                 <div class="card-body">
                 <h3>Basics of Web Development</h3>
                 <p class="card-text">Web Development seekhna hai toh attend karne kaa</p>
             </div>
                 </div>
             </div>
-            
-
-        </div>
-        <p class="display-4">Mindfulness</p>
-        <div class="row">
-            <div class="col-4">
-            <div class="card">
-                                <img src="Images/AAUvwnjGKGFwM-O4dkJGLeAipUd0mEaF5_OlytAB4DnrOQ=s176-c-k-c0x00ffffff-no-rj.jpg" class="rounded mx-auto d-block" alt="image">
+            </div>
+            <p class="display-4">Mindfulness</p>
+            <div class="row">
+            <div class="col-3">
+            <div class="card event-card">
+                <img src="Images/AAUvwnjGKGFwM-O4dkJGLeAipUd0mEaF5_OlytAB4DnrOQ=s176-c-k-c0x00ffffff-no-rj.jpg" class="card-img-top event-card-img" alt="image">
                 <h2>Basics</h2>
                 <p>I have run out of ideas.</p>
             </div>
             </div>
-            <div class="card col-4">
-                                <img src="Images/AAUvwnjGKGFwM-O4dkJGLeAipUd0mEaF5_OlytAB4DnrOQ=s176-c-k-c0x00ffffff-no-rj.jpg" class="rounded mx-auto d-block" alt="image">
-                <h2>Basics of Life</h2>
-                <p>Weed</p>
+                <div class="col-3">
+                    <div class="card event-card">
+                        <img src="Images/AAUvwnjGKGFwM-O4dkJGLeAipUd0mEaF5_OlytAB4DnrOQ=s176-c-k-c0x00ffffff-no-rj.jpg" class="card-img-top event-card-img" alt="image">
+                        <h2>Basics of Life</h2>
+                        <p>Weed</p>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card event-card">
+                    <img src="Images/marathon.jpg" class="card-img-top event-card-img" alt="image">
+                    <h5><strong>Half-Marathon</strong></h5>
+                    <p>Challenge your will power by running the Annual Pune Half-Marathon</p>
+                    <div class="row">
+                        <div class="col-5">
+                            <p class="lead">Paid</p>
+                        </div>
+                        <div class="col-5">
+                            <button class="btn btn-primary" type="button" id="button-addon2">Attend</button>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>    
+        </div>     
+        <p class="display-4">Browse Events by Catergory</p>
+            <div class="row">
+                <div class="col-2">       
+           <button type="button" class="btn btn-light rounded-pill p-3 mb-2 bg-primary text-white">Mindfulness</button>
+        </div>
+                <div class="col-2">       
+           <button type="button" class="btn btn-light rounded-pill p-3 mb-2 bg-primary text-white">Outdoors</button>
+        </div>
+                <div class="col-2">       
+           <button type="button" class="btn btn-light rounded-pill p-3 mb-2 bg-primary text-white">Literature</button>
+        </div>
+                <div class="col-2">       
+           <button type="button" class="btn btn-light rounded-pill p-3 mb-2 bg-primary text-white">Tech</button>
+        </div>
+                <div class="col-2">       
+           <button type="button" class="btn btn-light rounded-pill p-3 mb-2 bg-primary text-white">Family</button>
+        </div>
+                <div class="col-2">       
+           <button type="button" class="btn btn-light rounded-pill p-3 mb-2 bg-primary text-white">Health/Wellness</&></button>
+        </div>
             </div>
-            <div class="col">
-                                <img src="Images/marathon.jpg" class="card-img-top" alt="image">
-                <h2>Half-Marathon</h2>
-                <p>Challenge your will power by running the Annual Pune Half-Marathon</p>
-            </div>
         </div>
-    </div>    
-              
-    <p class="display-4">Browse Events by Catergory</p>
-        <div class="row">
-        <div class="col-3">
-               
-           <button type="button" class="btn btn-light btn-lg" style="padding:5px; margin: 10px;">
-               <img height="70px" width="100px" src="Images/Meditation.jpg">Mindfulness</button>
-        </div>
-        <div class="col-3">
-               
-           <button type="button" class="btn btn-light btn-lg" style="padding: 5px; margin: 10px;">
-               <img height="70px" width="100px" src="Images/Trekking.jpg">Outdoors</button>
-        </div>
-            <div class="col-3">
-               
-           <button type="button" class="btn btn-light btn-lg" style="padding: 5px; margin: 10px;">
-               <img height="70px" width="100px" src="Images/web.jpg">Tech</button>
-        </div>
-            <div class="col-3">
-               
-           <button type="button" class="btn btn-light btn-lg" style="padding: 5px; margin: 10px;">
-               <img height="70px" width="100px" src="Images/clip-national-running-day.png">Family</button>
-        </div>
-            <div class="col-3">
-               
-           <button type="button" class="btn btn-light btn-lg" style="padding: 5px; margin: 10px;">
-               <img height="70px" width="100px" src="Images/Meditation.jpg">Mindfulness</button>
-        </div>
-            <div class="col-3">
-               
-           <button type="button" class="btn btn-light btn-lg" style="padding: 5px; margin: 10px;">
-               <img height="70px" width="100px" src="Images/Meditation.jpg">Mindfulness</button>
-        </div>
-            <div class="col-3">
-               
-           <button type="button" class="btn btn-light btn-lg" style="padding: 5px; margin: 10px;">
-               <img height="70px" width="100px" src="Images/Meditation.jpg">Mindfulness</button>
-        </div><div class="col-3">
-               
-           <button type="button" class="btn btn-light btn-lg" style="padding: 5px; margin: 10px;">
-               <img height="70px" width="100px" src="Images/Meditation.jpg">Mindfulness</button>
-        </div><div class="col-3">
-               
-           <button type="button" class="btn btn-light btn-lg" style="padding: 5px; margin: 10px;">
-               <img height="70px" width="100px" src="Images/Meditation.jpg">Mindfulness</button>
-        </div><div class="col-3">
-               
-           <button type="button" class="btn btn-light btn-lg" style="padding: 5px; margin: 10px;">
-               <img height="70px" width="100px" src="Images/Meditation.jpg">Mindfulness</button>
-        </div><div class="col-3">
-               
-           <button type="button" class="btn btn-light btn-lg" style="padding: 5px; margin: 10px;">
-               <img height="70px" width="100px" src="Images/Meditation.jpg">Mindfulness</button>
-        </div><div class="col-3">
-               
-           <button type="button" class="btn btn-light btn-lg" style="padding: 5px; margin: 10px;">
-               <img height="70px" width="100px" src="Images/Meditation.jpg">Mindfulness</button>
-        </div><div class="col-3">
-               
-           <button type="button" class="btn btn-light btn-lg" style="padding: 5px; margin: 10px;">
-               <img height="70px" width="100px" src="Images/Meditation.jpg">Mindfulness</button>
-        </div><div class="col-3">
-               
-           <button type="button" class="btn btn-light btn-lg" style="padding: 5px; margin: 10px;">
-               <img height="70px" width="100px" src="Images/Meditation.jpg">Mindfulness</button>
-        </div><div class="col-3">
-               
-           <button type="button" class="btn btn-light btn-lg" style="padding: 5px; margin: 10px;">
-               <img height="70px" width="100px" src="Images/Meditation.jpg">Mindfulness</button>
-        </div><div class="col-3">
-               
-           <button type="button" class="btn btn-light btn-lg" style="padding: 5px; margin: 10px;">
-               <img height="70px" width="100px" src="Images/Meditation.jpg">Mindfulness</button>
-        </div><div class="col-3">
-               
-           <button type="button" class="btn btn-light btn-lg" style="padding: 5px; margin: 10px;">
-               <img height="70px" width="100px" src="Images/Meditation.jpg">Mindfulness</button>
-        </div><div class="col-3">
-               
-           <button type="button" class="btn btn-light btn-lg" style="padding: 5px; margin: 10px;">
-               <img height="70px" width="100px" src="Images/Meditation.jpg">Mindfulness</button>
-        </div><div class="col-3">
-               
-           <button type="button" class="btn btn-light btn-lg" style="padding: 5px; margin: 10px;">
-               <img height="70px" width="100px" src="Images/Meditation.jpg">Mindfulness</button>
-        </div><div class="col-3">
-               
-           <button type="button" class="btn btn-light btn-lg" style="padding: 5px; margin: 10px;">
-               <img height="70px" width="100px" src="Images/Meditation.jpg">Mindfulness</button>
-        </div><div class="col-3">
-               
-           <button type="button" class="btn btn-light btn-lg" style="padding: 5px; margin: 10px;">
-               <img height="70px" width="100px" src="Images/Meditation.jpg">Mindfulness</button>
-        </div><div class="col-3">
-               
-           <button type="button" class="btn btn-light btn-lg" style="padding: 5px; margin: 10px;">
-               <img height="70px" width="100px" src="Images/Meditation.jpg">Mindfulness</button>
-        </div><div class="col-3">
-               
-           <button type="button" class="btn btn-light btn-lg" style="padding: 5px; margin: 10px;">
-               <img height="70px" width="100px" src="Images/Meditation.jpg">Mindfulness</button>
-        </div><div class="col-3">
-               
-           <button type="button" class="btn btn-light btn-lg" style="padding: 5px; margin: 10px;">
-               <img height="70px" width="100px" src="Images/Meditation.jpg">Mindfulness</button>
-        </div><div class="col-3">
-               
-           <button type="button" class="btn btn-light btn-lg" style="padding: 5px; margin: 10px;">
-               <img height="70px" width="100px" src="Images/Meditation.jpg">Mindfulness</button>
-        </div><div class="col-3">
-               
-           <button type="button" class="btn btn-light btn-lg" style="padding: 5px; margin: 10px;">
-               <img height="70px" width="100px" src="Images/Meditation.jpg">Mindfulness</button>
-        </div><div class="col-3">
-               
-           <button type="button" class="btn btn-light btn-lg" style="padding: 5px; margin: 10px;">
-               <img height="70px" width="100px" src="Images/Meditation.jpg">Mindfulness</button>
-        </div><div class="col-3">
-               
-           <button type="button" class="btn btn-light btn-lg" style="padding: 5px; margin: 10px;">
-               <img height="70px" width="100px" src="Images/Meditation.jpg">Mindfulness</button>
-        </div>
-       </div>
-        </div>   
         <div class="container-fluid mb-2 bg-dark text-white" style="height: 500px; padding-top: 25px;">
             <div class="container-sm">
-                <p class="lead"> Create your own Event</p>
-                <div class="bg-white" style="height: 0.1mm;">
+                <div class="row">
+                    <div class="col-3">
+                        <p class="lead"> Create your own Event</p>
+                    </div>
+                    <div class="col-5">
+                        <button type="button" class="btn btn-secondary">Get Started</button>
+                    </div>
+                </div>
+                <div class="bg-white" style="height: 0.1mm;">    </div>
+                <div class="row padding-top50">
+                    <div class="col-4">
+                        <p><b>Account</b></p>
+                    </div>
+                    <div class="col-4">
+                        <p><b>Discover</b></p>
+                    </div>
+                    <div class="col-4">
+                        <p><b>About</b></p>
+                    </div>
+                </div>
+                <div class="row" style="margin-bottom: 0; padding: 0;">
+                    <div class="col-4" >
+                        <p>Sign-up</p>
+                    </div>
+                    <div class="col-4">
+                        <p>Groups</p>
+                    </div>
+                    <div class="col-4">
+                        <p>Meetups</p>
+                    </div>
+                    <div class="col-4">
+                        <p>Log-in</p>
+                    </div>
+                    <div class="col-4">
+                        <p>Calender</p>
+                    </div>
+                    <div class="col-4">
+                        <p>Blog</p>
+                    </div>
                 </div>
             </div>
         </div>

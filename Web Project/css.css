@@ -7,6 +7,12 @@
     height: 40px;
     width: 40px;
 }
+
+.small-box{
+    height: 30px;
+    width: 100px;
+}
+
 .event-img{
     height: 350px;
     width: 600px;
@@ -17,3 +23,24 @@
     width: 130px;
 }
 
+.event-card-img{
+    height: 150px;
+    width: 238px;
+}
+
+.event-card{
+    height: 25rem;
+    width: 15rem;
+}
+
+.padding-top50{
+    padding-top: 50px;
+}
+
+.z-index-below{
+    z-index: 1;
+}
+
+.z-index-top{
+    z-index: 2;
+}
